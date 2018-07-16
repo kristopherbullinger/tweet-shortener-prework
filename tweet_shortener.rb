@@ -11,7 +11,7 @@ def dictionary(word)
   'at': '@',
   'and': '&'
   }
-  word = (dictionary.keys.include? word) ? dictionary[word.downcase.to_sym] : word
+  word = (dictionary.keys.include? word.downcase) ? dictionary[word.downcase.to_sym] : word
 end
 
 def word_substituter(long_tweet)
