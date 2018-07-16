@@ -5,6 +5,7 @@ def dictionary(word)
   'two': '2',
   'too': '2',
   'for': '4',
+  'be': 'b',
   'four': '4',
   'you': 'u',
   'at': '@',
