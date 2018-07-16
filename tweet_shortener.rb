@@ -17,7 +17,7 @@ end
 def word_substituter(long_tweet)
   long_tweet = long_tweet.split(" ")
   shorter_tweet = long_tweet.collect do |word|
-    dictionary(word.downcase.to_sym).to_s
+    dictionary(word.to_sym).to_s
   end
   shorter_tweet.join(" ")
 end
